@@ -9,7 +9,7 @@ plsql_window_functions_29181_Uwase-Rubagumya-Jose
 3. Expected Outcome:
 "By the end of this analysis, I expect to have a clear list of our highest-revenue departments and a better understanding of which patients are frequent visitors so we can provide them with personalized care programs and follow-up services.
 
-2. Success Criteria (Step 2)
+### 2. Success Criteria (Step 2)
 
 The project is considered successful if it achieves the following five measurable goals:
 
@@ -31,7 +31,7 @@ Smooths short-term fluctuations in admissions to reveal long-term trends for bet
 ## 3. Database Schema & ER Diagram (Step 3)
 <img width="1246" height="312" alt="ERD Diagram" src="https://github.com/user-attachments/assets/5d74c7bc-0b1f-4baf-8597-5bba0b443ba7" />
 
-Step 4: Part A — SQL JOINs Implementation
+## Step 4: Part A — SQL JOINs Implementation
 1. INNER JOIN
  
 <img width="442" height="170" alt="inner join billing" src="https://github.com/user-attachments/assets/9bfb3c50-02ae-4115-b495-666f546e7b82" />
@@ -52,7 +52,7 @@ Step 4: Part A — SQL JOINs Implementation
 
  <img width="473" height="224" alt="self join" src="https://github.com/user-attachments/assets/fd924181-b8e7-4696-a059-08e01218c071" />
 
-Step 5: Part B — Window Functions Implementation
+## Step 5: Part B — Window Functions Implementation
 
 1. Ranking Functions
    
@@ -62,7 +62,7 @@ Step 5: Part B — Window Functions Implementation
 
       <img width="857" height="383" alt="Aggregate Window Functions " src="https://github.com/user-attachments/assets/3f2b1038-d11c-474d-8f63-9f6bef4af97e" />
 
-  3. Navigation Functions
+ 3. Navigation Functions
 
          
 <img width="730" height="297" alt="Navigation Functions" src="https://github.com/user-attachments/assets/915714ae-18e1-44ae-a884-fab7f8ea110f" />
@@ -73,7 +73,23 @@ Step 5: Part B — Window Functions Implementation
 <img width="677" height="301" alt="Distribution Functions " src="https://github.com/user-attachments/assets/8b60f1a1-e998-47ce-b44f-8355d742aa4c" />
 
 
+## Step 7: Results Analysis
+1️⃣ Descriptive Analysis — What happened?
 
+Most patients have billing records, but one patient has not been billed and one is not assigned to any department. A small number of patients contribute the highest revenue, and some departments are actively used while others have no patients. Overall billing amounts increase over time.
+
+2️⃣ Diagnostic Analysis — Why did it happen?
+
+Missing billing and department assignments may be due to incomplete data entry or patients not yet receiving services. High revenue from a few patients is likely caused by higher service usage or more expensive treatments. Uneven department usage reflects differences in patient demand.
+
+3️⃣ Prescriptive Analysis — What should be done next?
+
+The hospital should follow up on patients without billing or department assignments, improve data recording processes, and review underutilized departments. Management should also focus on retaining high-value patients and monitoring billing trends regularly.
+
+
+## Step 8: References
+
+DOCTORS AND YOUTUBE
 
 
 
